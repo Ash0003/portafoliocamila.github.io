@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+button{
+    height: 55px;
+    padding-top: 10px;
+}
+footer{
+    height: 55px;
+    padding-top: 10px;
+    text-align: center;
+}
+footer ul{
+    display: inline-block;
+}
+footer ul li{
+    float: left;
+}
+/******************************************************************************************/
+/*CSS Clases y los ID's*/
+.hastag{
+    color: #ffc900;
+}
+.seccion{
+    padding: 10px 100px 10px 100px;
+}
+.logo{
+    padding-top: 0px;
+}
+#redessociales{
+    margin-top: 20px;
+    list-style: none;
+}
+#inicio{
+    background-image: url("../img/inicio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 280px;
+    padding-top: 75px;
+}
+#experiencia{
+    background-color: white;
+    color: #222;
+}
+#portafolio{
+    border-top: 1px solid #ffc900; /*Para la linea amarilla*/
+}
+.masinfo button{
+    background-color: #ffc900;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+
+/******************************** CARDS PORTAFOLIO *****************************************************************/
+.filaportafolio{
+    display: flex; /*Flex Box*/
+    flex-direction: row; /*los 4 elementos div estaran en fila*/
+    flex-wrap: wrap; /*Si no hay espacio se pone en columna (RESPONSIVE)*/
+    justify-content: space-between; /*Espacios esquidistance*/
+    gap: 30px 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.card{
+    width: 250px;
+    background-color: #191919;
+    border-radius: 15px;
+}
+.card img, .card video{
+    border-radius: 15px 15px 0 0;
+}
+
