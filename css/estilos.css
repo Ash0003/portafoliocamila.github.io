@@ -159,6 +159,17 @@ footer ul li{
     justify-content: space-between;
     align-content: space-around;
 }
+
+.cardexp{
+    display: flex;  /*Flex Box*/
+    flex-direction: row;  /*los 4 elementos div estarán en fila*/
+    flex-wrap: wrap;  /*Si no hay espacio se pone en columna (RESPONSIVE)*/
+    justify-content: space-between; /*ESPACIOS EQUIDISTANTES*/
+    gap: 30px 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
 .cardexp{
     background-color: #222;
     border-radius: 15px;
